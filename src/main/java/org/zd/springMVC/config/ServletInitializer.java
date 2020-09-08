@@ -1,4 +1,4 @@
-package org.zd.config;
+package org.zd.springMVC.config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
