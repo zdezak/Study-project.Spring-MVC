@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 @Component
 public class PersonDAO {
+
     private static int PEOPLE_COUNT;
 
     private static final String URL = "jdbc:postgresql://localhost:5432/springMVC";
@@ -68,7 +69,6 @@ public class PersonDAO {
         }
         return person;
     }
-
     public void save(Person person) {
         try {
             PreparedStatement preparedStatement = connection.prepareStatement("INSERT INTO Person VALUES(1,?,?,?)");
